@@ -1,7 +1,7 @@
 Installation
 ---------
 
-1. Unpack archive to folder <code>/wp-content/plugins/</code>
+1. Unpack archive to folder <code>/wp-content/plugins/</code>.
 2. Activate plagin Lisette-cost-calculator.
 3. Add post or page and insert short-code - <code>[cost_calculator]</code>.
 
@@ -26,7 +26,11 @@ Setup
    <pre>
    'question' => 'Model',
       'answers' => [
-         ['caption' => 'with lifting mechanism', 'image' => 'with-lifting.jpg', 'value' => 230, 'small' => true],
+         [
+           'caption' => 'with lifting mechanism', 
+           'image' => 'with-lifting.jpg', 
+           'value' => 230, 
+           'small' => true],
        ],
    </pre>
 4. If parameter <code>image</code> is not specified, item will be printed without image.
