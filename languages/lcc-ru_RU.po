@@ -1,0 +1,226 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-12 23:05+0300\n"
+"PO-Revision-Date: 2017-10-13 13:10+0300\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"Last-Translator: \n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"Language: ru\n"
+
+msgid "What do you choose?"
+msgstr "Что вы выбираете?"
+
+msgid "Bed"
+msgstr "Кровать"
+
+msgid "Age"
+msgstr "Возраст"
+
+msgid "Adult"
+msgstr "Взрослый"
+
+msgid "Child"
+msgstr "Ребенок"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "one person bed"
+msgstr "1 спальная"
+
+msgid "one & half"
+msgstr "1.5 спальная"
+
+msgid "double"
+msgstr "двуспальная"
+
+msgid "Model"
+msgstr "Модель"
+
+msgid "transformer"
+msgstr "трансформер"
+
+msgid "two-level"
+msgstr "двухярусная"
+
+msgid "loft"
+msgstr "чердак"
+
+msgid "hovering"
+msgstr "парящая"
+
+msgid "built-in wardrobe"
+msgstr "встроенная в шкаф"
+
+msgid "with lifting mechanism"
+msgstr "с опускающимся механизмом"
+
+msgid "Form"
+msgstr "Форма"
+
+msgid "square"
+msgstr "квадратная"
+
+msgid "rectangular"
+msgstr "прямоугольная"
+
+msgid "round"
+msgstr "круглая"
+
+msgid "Material"
+msgstr "Материал"
+
+msgid "wood"
+msgstr "дерево"
+
+msgid "veneer"
+msgstr "шпон"
+
+msgid "metal"
+msgstr "металл"
+
+msgid "chipboard"
+msgstr "дсп, мдф и прочее"
+
+msgid "Frame"
+msgstr "Каркас"
+
+msgid "rake"
+msgstr "реечный"
+
+msgid "mesh"
+msgstr "металлическая сетка"
+
+msgid "flat"
+msgstr "плоский"
+
+msgid "orthopedic"
+msgstr "ортопедический"
+
+msgid "Mattress"
+msgstr "Матрас"
+
+msgid "with bonnel blocks"
+msgstr "с блоком боннель"
+
+msgid "independent springs"
+msgstr "с независимыми пружинами"
+
+msgid "without springs"
+msgstr "без пружин"
+
+msgid "Price class"
+msgstr "Ценовой класс"
+
+msgid "economy"
+msgstr "эконом"
+
+msgid "standard"
+msgstr "стандарт"
+
+msgid "elite"
+msgstr "элит"
+
+msgid "Sofa"
+msgstr "Софа"
+
+msgid "straight"
+msgstr "прямой"
+
+msgid "corner"
+msgstr "угловой"
+
+msgid "halfround"
+msgstr "полукруглый"
+
+msgid "modular"
+msgstr "модульный"
+
+msgid "п-shaped"
+msgstr "п-образный"
+
+msgid "Upholstery"
+msgstr "Обшивка"
+
+msgid "leather"
+msgstr "кожа"
+
+msgid "leatherette"
+msgstr "кожзаменитель"
+
+msgid "cotton"
+msgstr "хлопок"
+
+msgid "jacquard"
+msgstr "жаккард"
+
+msgid "flock"
+msgstr "флок"
+
+msgid "silk"
+msgstr "шелк"
+
+msgid "gobelin"
+msgstr "гобелен"
+
+msgid "Mechanism of sofa folding"
+msgstr "Механизм раскладывания дивана"
+
+msgid "without mechanism"
+msgstr "без механизма"
+
+msgid "book"
+msgstr "книжка"
+
+msgid "click-click"
+msgstr "клик-кляк"
+
+msgid "accordion"
+msgstr "аккордеон"
+
+msgid "eurobook"
+msgstr "еврокнижка"
+
+msgid "roll-out"
+msgstr "выкатной"
+
+msgid "orthopedic mattress"
+msgstr "с ортопедическим матрасом"
+
+msgid "Sum"
+msgstr "Сумма"
+
+msgid "Calculate"
+msgstr "Вычислить"
+
+msgid "Results"
+msgstr "Результаты"
+
+msgid "Total"
+msgstr "Общий итог"
+
+msgid "Select all options, please."
+msgstr "Выберите все опции, пожалуйста."
+
+msgid "Storage for bedding"
+msgstr "Ящик для хранения белья"
+
+msgid "with-storage"
+msgstr "с ящиком"
+
+msgid "Headboard"
+msgstr "Изголовье"
+
+msgid "design"
+msgstr "дизайн"

@@ -1,0 +1,198 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-10-12 23:04+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "What do you choose?"
+msgstr ""
+
+msgid "Bed"
+msgstr ""
+
+msgid "Age"
+msgstr ""
+
+msgid "Grown"
+msgstr ""
+
+msgid "Child"
+msgstr ""
+
+msgid "Size"
+msgstr ""
+
+msgid "one person bed"
+msgstr ""
+
+msgid "one & half"
+msgstr ""
+
+msgid "double"
+msgstr ""
+
+msgid "Model"
+msgstr ""
+
+msgid "transformer"
+msgstr ""
+
+msgid "two-level"
+msgstr ""
+
+msgid "loft"
+msgstr ""
+
+msgid "hovering"
+msgstr ""
+
+msgid "built-in wardrobe"
+msgstr ""
+
+msgid "with lifting mechanism"
+msgstr ""
+
+msgid "Form"
+msgstr ""
+
+msgid "square"
+msgstr ""
+
+msgid "rectangular"
+msgstr ""
+
+msgid "round"
+msgstr ""
+
+msgid "Material"
+msgstr ""
+
+msgid "wood"
+msgstr ""
+
+msgid "veneer"
+msgstr ""
+
+msgid "metal"
+msgstr ""
+
+msgid "chipboard"
+msgstr ""
+
+msgid "Frame"
+msgstr ""
+
+msgid "rake"
+msgstr ""
+
+msgid "mesh"
+msgstr ""
+
+msgid "flat"
+msgstr ""
+
+msgid "orthopedic"
+msgstr ""
+
+msgid "Mattress"
+msgstr ""
+
+msgid "with bonnel blocks"
+msgstr ""
+
+msgid "independent springs"
+msgstr ""
+
+msgid "without springs"
+msgstr ""
+
+msgid "Price class"
+msgstr ""
+
+msgid "economy"
+msgstr ""
+
+msgid "standard"
+msgstr ""
+
+msgid "elite"
+msgstr ""
+
+msgid "Sofa"
+msgstr ""
+
+msgid "straight"
+msgstr ""
+
+msgid "corner"
+msgstr ""
+
+msgid "halfround"
+msgstr ""
+
+msgid "modular"
+msgstr ""
+
+msgid "п-shaped"
+msgstr ""
+
+msgid "Upholstery"
+msgstr ""
+
+msgid "leather"
+msgstr ""
+
+msgid "leatherette"
+msgstr ""
+
+msgid "cotton"
+msgstr ""
+
+msgid "jacquard"
+msgstr ""
+
+msgid "flock"
+msgstr ""
+
+msgid "silk"
+msgstr ""
+
+msgid "gobelin"
+msgstr ""
+
+msgid "Mechanism of sofa folding"
+msgstr ""
+
+msgid "without mechanism"
+msgstr ""
+
+msgid "book"
+msgstr ""
+
+msgid "click-click"
+msgstr ""
+
+msgid "accordion"
+msgstr ""
+
+msgid "eurobook"
+msgstr ""
+
+msgid "roll-out"
+msgstr ""
+
+msgid "orthopedic mattress"
+msgstr ""

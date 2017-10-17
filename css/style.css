@@ -1,0 +1,73 @@
+.option {
+	display: inline-block;
+	margin-right: 20px;
+}
+.question-answers {
+	margin-top: 20px;
+}
+.btn-calculate {
+	margin: 30px 0px 40px 0px;
+	display: none;
+}
+#questionnaire-form .error {
+	color: #a94442;
+	margin: 20px 0px 10px 0px;
+}
+.total {margin-bottom:30px;}
+/** 
+ * Image Radio Input
+ */
+.type-block {
+	display: inline-block;
+	width: 45%;
+	max-width: 170px;
+	min-width: 100px;
+	height: 140px;
+	margin: 0 7px 10px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+.type-block:hover {
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .25);
+}
+.type-block * {
+	cursor: pointer;
+}
+.type-block input[type=radio] {
+	display: none;
+}
+.type-block .type-img {
+	height: 100px;
+	width: 100%;
+	overflow: hidden;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.type-block .type-label {
+	height: 40px;
+	padding: 3px;
+	background: rgb(247,247,247);
+	background: -moz-linear-gradient(top,  rgba(247,247,247,1) 0%, rgba(238,238,238,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(247,247,247,1) 0%,rgba(238,238,238,1) 100%);
+	background: linear-gradient(to bottom,  rgba(247,247,247,1) 0%,rgba(238,238,238,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f7f7f7', endColorstr='#eeeeee',GradientType=0 );
+	text-align: center;
+	line-height: 1;
+	vertical-align: middle;
+	line-height: 0em;
+}
+.type-block .type-label:after {
+	content: "";
+	display: inline-block;
+	height: 100%;
+	vertical-align: middle;
+}
+.type-block input[type=radio]:checked ~ .type-label {
+	background: rgb(94,224,94);
+	background: -moz-linear-gradient(top,  rgba(94,224,94,1) 0%, rgba(56,189,61,1) 100%);
+	background: -webkit-linear-gradient(top,  rgba(94,224,94,1) 0%,rgba(56,189,61,1) 100%);
+	background: linear-gradient(to bottom,  rgba(94,224,94,1) 0%,rgba(56,189,61,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5ee05e', endColorstr='#38bd3d',GradientType=0 );
+	color: #fff;
+}

@@ -1,0 +1,13 @@
+.fixed-box {
+    height: 60px;
+    width: 305px!important;
+}
+.fixed-div {
+    height: 60px;
+    width: 100%;
+}
+.fixed {
+    position: fixed;
+    z-index: 9999;
+    /* top: 150px; */
+}
