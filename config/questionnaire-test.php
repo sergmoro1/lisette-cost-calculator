@@ -25,19 +25,19 @@ return ['items' => [
             [
               'caption' => __('one person bed', 'lcc'), 
               'image' => 'bed1.jpg', 
-              'value' => 100,
+              'value' => 5000,
               'items' => ['header' => ['question' => __('Storage for bedding', 'lcc'), 'answers' => [
 				['caption' => 'standard', 'image' => 'head-ordinary.jpg', 'value' => 0],
-				['caption' => 'with-storage', 'image' => 'head-storage.jpg', 'value' => 30],
+				['caption' => 'with-storage', 'image' => 'head-storage.jpg', 'value' => 1500],
 			  ]]],
             ],
             [
               'caption' => __('double', 'lcc'), 
               'image' => 'bed2.jpg', 
-              'value' => 220,
+              'value' => 11000,
               'items' => ['header' => ['question' => __('Headboard', 'lcc'), 'answers' => [
-				['caption' => __('standard', 'lcc'), 'image' => 'head-ordinary-2.jpg', 'value' => 10],
-				['caption' => __('design', 'lcc'), 'image' => 'head-design-2.jpg', 'value' => 50],
+				['caption' => __('standard', 'lcc'), 'image' => 'head-ordinary-2.jpg', 'value' => 500],
+				['caption' => __('design', 'lcc'), 'image' => 'head-design-2.jpg', 'value' => 2550],
 			  ]]],
             ],
           ],
@@ -65,12 +65,12 @@ return ['items' => [
             [
               'caption' => __('straight', 'lcc'), 
               'image' => 'line.jpg', 
-              'value' => 200,
+              'value' => 10000,
             ],
             [
               'caption' => __('corner', 'lcc'), 
               'image' => 'corner.jpg', 
-              'value' => 300,
+              'value' => 15000,
             ],
           ],
         ],
