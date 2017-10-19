@@ -6,6 +6,11 @@ Quite often the manufacturer allows you to select the components in advance.
 For this goal should be a visual questionnaire. 
 This plugin helps simply define such a questionnaire. 
 
+Important
+---------
+Plugin works for Twenty Fourteen theme. It will work for others too but
+some changes in a file /css/fixed.css can be needed.
+
 Installation
 ---------
 
@@ -48,3 +53,4 @@ Setup
          ['caption' => 'econom', 'value' => '*1'],
          ['caption' => 'elite', 'value' => '*2'],
     </pre>
+5. Change /css/fixed.css if needed.
