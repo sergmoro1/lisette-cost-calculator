@@ -8,11 +8,14 @@
  */
 window.$ = jQuery;
 $(document).ready(function() {
+	var warningColor = '#a94442';
 	var sumID = '#cost-calculator-sum #sum span';
-	$('#cost-calculator .dependent').hide();
 	
-	var total = {};
-	var coeff = {};
+	// hide all dependent blocks after page was loaded
+	$('#cost-calculator .dependent').hide();
+	// init
+	var total = {}; // array for keeping absolute values
+	var coeff = {}; // array for keeping coefficients
 	var submit = $('#cost-calculator .btn-calculate');
 	var errors;
     // User choice a radibutton item, click on it.
@@ -44,7 +47,7 @@ $(document).ready(function() {
 		}
 		// hide all dependents except selected
 		dependents.each(function( index ) {
-			// all cheked to false
+			// set all checked property to false
 			$(this).find('input:radio').prop('checked', false);
 			// show selected dependent block
 			if($(this).attr('id') == (variable + '-' + i))
@@ -56,16 +59,19 @@ $(document).ready(function() {
 		// show submit button after first selection
 		if(submit.css('display') == 'none')
 			submit.show();
-		// change sum
+		// init sum
 		var sum = 0;
+		// keep current value
 		if(value.substr(0,1) == '*')
 			coeff[variable] = Number(value.substr(1));
 		else
 			total[variable] = Number(value);
+		// recalculate sum
 		for(var j in total)
 			sum += total[j];
 		for(var j in coeff)
 			sum *= coeff[j];
+		// show new value
 		$(sumID).text(sum);
 	});
 	// Verify - is really all field are filled in.
@@ -87,13 +93,13 @@ $(document).ready(function() {
 				// mark not filled in fields
 				for(var name in vars) {
 					if(!vars[name]) {
-						that.find('#' + name + '.question-answers h3').css('color', '#a94442');
+						that.find('#' + name + '.question-answers h3').css('color', warningColor);
 						errors++;
 					}
 				}
 			}
 		});
-		
+		// show error if exist
 		if(errors)
 			$('#questionnaire-form .error').text(lcc_message.selectAllOptions);
 		

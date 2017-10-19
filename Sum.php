@@ -15,6 +15,7 @@ function register_lisette_cost_calculator_sum_widget() {
 class Lisette_Cost_Calculator_Sum extends WP_Widget {
 
 	public function __construct() {
+		// add class for wrapping div
         $widget_ops  = [
             'classname' => 'fixed-box fixed',
         ];
@@ -35,6 +36,7 @@ class Lisette_Cost_Calculator_Sum extends WP_Widget {
 	 * @param array $instance Saved values from database.
 	 */
 	public function widget( $args, $instance ) {
+		// show widget only on page cost-calculator
 		$pagename = get_query_var('pagename');
 		if ( is_page() && $pagename == 'cost-calculator' ) {
 			$title = apply_filters( 'widget_title', $instance['title'] );

@@ -1,3 +1,11 @@
+Description
+---------
+Any product consists of elements. 
+Quite often the manufacturer allows you to select the components in advance. 
+
+For this goal should be a visual questionnaire. 
+This plugin helps simply define such a questionnaire. 
+
 Installation
 ---------
 

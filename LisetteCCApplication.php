@@ -155,7 +155,7 @@ class LisetteCCApplication
         foreach($items as $var => $item) {
             $out .= '<div id="'. $var .'" class="question-answers">';
             $out .= '<h3>'. $item['question'] .'</h3>';
-            // first - show all inputs
+            // first - show all answers (inputs)
             $i = 0; $value = [];
             foreach($item['answers'] as $answer) {
                 $value[$i] = isset($answer['value']) 
