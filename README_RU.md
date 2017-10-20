@@ -68,6 +68,7 @@ $application = new LisetteCCApplication([
       'value' => '*1.3',
     ],
   ],
+</pre>
 
 Все картинки должны быть размещены в каталоге <code>/wp-content/plugins/lisette-cost-calculator/img/</code>.
 

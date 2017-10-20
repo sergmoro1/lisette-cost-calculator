@@ -68,6 +68,7 @@ If befor number symbol "*" placed, then it is a coefficient.
       'value' => '*1.3',
     ],
   ],
+</pre>
 
 All images should be placed in a folder <code>/wp-content/plugins/lisette-cost-calculator/img/</code>.
 
