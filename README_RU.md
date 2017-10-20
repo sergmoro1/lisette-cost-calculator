@@ -9,7 +9,7 @@
 Важно
 ---------
 Плагин работает с темой "Twenty Fourteen". Он будет работать и с другими темами, но
-некоторые изменения в файле /css/fixed.css могут понадобиться.
+некоторые изменения в файле <code>/css/fixed.css</code> могут понадобиться.
 
 Установка
 ---------
@@ -21,37 +21,76 @@
 Настройка
 ---------
 
-1. Цены, названия на кнопках, файлы изображений на кнопках можно менять
-   в файле <code>/wp-content/plugins/lisette-cost-calculator/config/questionnaire.php</code>.
-2. Можно добавлять новые пункты для выбора. Например можно добавить средний возраст:
-   <pre>
-   'question' => 'Возраст',
-      'answers' => [
-         ['caption' => 'Взрослый', 'image' => 'men.jpg', 'value' => '*1'],
-         ['caption' => 'Средний', 'image' => 'teenage.jpg', 'value' => '*1.1'],
-         ['caption' => 'Ребенок', 'image' => 'child.jpg', 'value' => '*1.3'],
-       ],
-   </pre>   
-   Если параметр <code>value</code> - число, то оно добавляется к общей сумме.
-   Если число предваряется символом "*", то это коэффициент, на который умножается резудьтирующая сумма.
-   В примере файл изображения <code>teenage.jpg</code>, должен быть создан и записан в каталог - 
-   <code>/wp-content/plugins/lisette-cost-calculator/img/</code>.
-3. Если текст на кнопке длинноват, можно уменьшить шрифт добавив параметр <code>small</code>:
-   <pre>
-   'question' => 'Вид модели',
-      'answers' => [
-         [
-           'caption' => 'с подъемным механизмом', 
-           'image' => 'with-lifting.jpg', 
-           'value' => 12000, 
-           'small' => true],
-       ],
-   </pre>       
-4. Если в описании ответа не указан параметр image, пункт выводится без изображения.
-   <pre>
-   'question' => 'Ценовой класс',
-      'answers' => [
-         ['caption' => 'эконом', 'value' => '*1'],
-         ['caption' => 'элит', 'value' => '*2'],
-   </pre>
-5. Измените /css/fixed.css, если это необходимо.
+Цены, названия на кнопках, файлы изображений на кнопках можно менять в файле 
+<code>/wp-content/plugins/lisette-cost-calculator/config/questionnaire-test.php</code>.
+
+Файл вопросника может иметь любое имя. Поменяйте имя, при необходимости, в файле
+<code>lisette-cost-calculator.php</code>.
+
+<pre>
+$application = new LisetteCCApplication([
+  'name' => 'questionnaire'
+]);
+</pre>
+
+Каждый вопрос может иметь ответы. Каждый ответ может иметьs: <code>caption</code>, <code>image</code>, <code>value</code>. 
+Если параметр <code>value</code> является числом, то число добавляется к текущей сумме.
+
+<pre>
+'question' => 'Headboard', 
+  'answers' => [
+    [
+      'caption' => 'standard',
+      'image' => 'head-ordinary-2.jpg',
+      'value' => 500,
+    ],
+    [
+      'caption' => 'design',
+      'image' => 'head-design-2.jpg',
+      'value' => 2550,
+    ],
+  ],
+</pre>
+
+Если перед числом стоит символ "*", то это коэффициент на который умножается текущая сумма.
+
+<pre>
+'question' => 'Age',
+  'answers' => [
+    [
+      'caption' => 'Adult', 
+      'image' => 'men.jpg', 
+      'value' => '*1',
+    ],
+    [
+      'caption' => 'Child', 
+      'image' => 'child.jpg', 
+      'value' => '*1.3',
+    ],
+  ],
+
+Все картинки должны быть размещены в каталоге <code>/wp-content/plugins/lisette-cost-calculator/img/</code>.
+
+Если ответ длинноват, можно установить параметр <code>small</code>:
+
+<pre>
+  'question' => 'Model',
+    'answers' => [
+      [
+        'caption' => 'with lifting mechanism', 
+        'image' => 'with-lifting.jpg', 
+        'value' => 230, 
+        'small' => true,
+      ],
+    ],
+</pre>
+
+Если параметр <code>image</code> не определен, кнопка выбора будет выведена без картнки.
+
+<pre>
+  'question' => 'Price class',
+    'answers' => [
+      ['caption' => 'econom', 'value' => '*1'],
+      ['caption' => 'elite', 'value' => '*2'],
+    ],
+</pre>

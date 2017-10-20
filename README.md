@@ -25,7 +25,7 @@ Price, captions, images can be changed in configuration file
 <code>/wp-content/plugins/lisette-cost-calculator/config/questionnaire-test.php</code>.
    
 There may be any other name of a questionnaire file. In this case a new name should be set in a file
-<code>lisette-cost-calculator.php</code>
+<code>lisette-cost-calculator.php</code>.
 
 <pre>
 $application = new LisetteCCApplication([
@@ -33,7 +33,7 @@ $application = new LisetteCCApplication([
 ]);
 </pre>
    
-Any question can has an answer. Any answer can has: <code>caption</code>, <code>image</code>, <code>value</code>. 
+Any question can has an answers. Any answer can has: <code>caption</code>, <code>image</code>, <code>value</code>. 
 If parameter <code>value</code> is a number, then it will be added to total sum.
 
 <pre>
@@ -69,7 +69,7 @@ If befor number symbol "*" placed, then it is a coefficient.
     ],
   ],
 
-All images should be placed in a folder _/wp-content/plugins/lisette-cost-calculator/img/_.
+All images should be placed in a folder <code>/wp-content/plugins/lisette-cost-calculator/img/</code>.
 
 If caption too long add <code>small</code> parameter:
 
