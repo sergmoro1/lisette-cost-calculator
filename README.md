@@ -6,8 +6,6 @@ Quite often the manufacturer allows you to select the components in advance.
 For this goal should be a visual questionnaire. 
 This plugin helps simply define such a questionnaire. 
 
-See <a href="http://lisette.vorst.ru/cost-calculator/" title="Lisette Cost Calculator">demo</a>.
-
 Important
 ---------
 Plugin works for Twenty Fourteen theme. It will work for others too but
